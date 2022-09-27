@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="ChromePosBlackBox" t-inherit="point_of_sale.Chrome" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('pos-branding')]" position="inside">
+            <t t-if="state.uiState === 'READY'">
+                <t t-if="env.pos.useBlackBoxBe()">
+                    <table style="display: inline-table;margin-left: 5px;">
+                        <tr>
+                            <td>
+                                POS version: <t t-esc="env.pos.version.server_serie"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Serial number: <t t-esc="env.pos.config.certifiedBlackboxIdentifier"/>
+                            </td>
+                        </tr>
+                    </table>
+                </t>
+            </t>
+        </xpath>
+    </t>
+</templates>

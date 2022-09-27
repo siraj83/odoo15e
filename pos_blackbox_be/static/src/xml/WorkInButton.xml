@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="WorkInButton" owl="1">
+        <button class="control-button"
+                t-att-class="{
+                    'disabled-mode': state.buttonDisabled
+                }" t-att-disabled="state.buttonDisabled">
+            <i class="fa fa-retweet"></i>
+            <span style="font-weight: normal;">Work
+                <t t-if="state.status">Out</t>
+                <t t-else="">In</t>
+            </span>
+        </button>
+    </t>
+
+</templates>

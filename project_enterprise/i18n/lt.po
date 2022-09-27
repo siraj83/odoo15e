@@ -1,0 +1,226 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_enterprise
+# 
+# Translators:
+# Linas Versada <linaskrisiukenas@gmail.com>, 2022
+# Martin Trigaux, 2022
+# Jonas Zinkevicius <jozi@odoo.com>, 2022
+# Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-05 11:18+0000\n"
+"PO-Revision-Date: 2021-09-14 12:42+0000\n"
+"Last-Translator: Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2022\n"
+"Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
+msgid ""
+"<i class=\"fa fa-long-arrow-right mx-2 oe_edit_only\" aria-label=\"Arrow icon\" title=\"Arrow\"/>\n"
+"                        <i class=\"fa fa-long-arrow-right mx-2 oe_read_only\" aria-label=\"Arrow icon\" title=\"Arrow\" attrs=\"{'invisible': [('planned_date_begin', '=', False), ('planned_date_end', '=', False)]}\"/>"
+msgstr ""
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
+msgid "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
+msgstr ""
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
+msgid "<span class=\"align-middle\">for this employee at the same time.</span>"
+msgstr "<span class=\"align-middle\">šiam darbuotojui tuo pačiu metu.</span>"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
+msgid "<strong>Assignees — </strong>"
+msgstr "<strong>Atsakingi — </strong>"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
+msgid "<strong>Customer — </strong>"
+msgstr "<strong>Klientas —</strong>"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
+msgid "<strong>Project — </strong>"
+msgstr "<strong>Projektas —</strong>"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view_no_title
+msgid "Assignees"
+msgstr "Atsakingi"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view_no_title
+msgid "Customer"
+msgstr "Klientas"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
+msgid "Date"
+msgstr "Data"
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__display_warning_dependency_in_gantt
+msgid "Display Warning Dependency In Gantt"
+msgstr ""
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__planned_date_end
+msgid "End date"
+msgstr "Pabaigos data"
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__partner_mobile
+msgid "Mobile"
+msgstr "Mobilus"
+
+#. module: project_enterprise
+#: code:addons/project_enterprise/models/project.py:0
+#, python-format
+msgid ""
+"Operation not supported, you should always compare planning_overlap to 0 "
+"value with = or > operator."
+msgstr ""
+
+#. module: project_enterprise
+#: code:addons/project_enterprise/models/project.py:0
+#, python-format
+msgid "Overlapping Tasks"
+msgstr ""
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view_no_title
+msgid "Phone"
+msgstr "Telefonas"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
+msgid "Planned Date"
+msgstr "Suplanuota data"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
+msgid "Planning"
+msgstr "Planavimas"
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__planning_overlap
+msgid "Planning Overlap"
+msgstr "Plano persidengimai"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
+msgid "Project"
+msgstr "Projektas"
+
+#. module: project_enterprise
+#: model:ir.model,name:project_enterprise.model_project_milestone
+msgid "Project Milestone"
+msgstr "Projekto etapai"
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__project_color
+msgid "Project color"
+msgstr "Projekto spalva"
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__planned_date_begin
+msgid "Start date"
+msgstr "Pradžios data"
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__partner_street
+msgid "Street"
+msgstr "Gatvė"
+
+#. module: project_enterprise
+#: model:ir.model,name:project_enterprise.model_project_task
+msgid "Task"
+msgstr "Užduotis"
+
+#. module: project_enterprise
+#: model:ir.model,name:project_enterprise.model_report_project_task_user
+msgid "Tasks Analysis"
+msgstr "Užduočių analizė"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.view_task_search_form_inherit_enterprise
+msgid "Tasks in Conflict"
+msgstr "Susikertančios užduotys"
+
+#. module: project_enterprise
+#: model:ir.model.constraint,message:project_enterprise.constraint_project_task_planned_dates_check
+msgid "The planned start date must be prior to the planned end date."
+msgstr ""
+"Planuojama pradžios data turi būti ankstesnė už planuojamą pabaigos datą."
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.res_config_settings_view_form
+msgid "Timesheets"
+msgstr "Darbo apskaitos žiniaraščiai"
+
+#. module: project_enterprise
+#. openerp-web
+#: code:addons/project_enterprise/static/src/js/task_gantt_model.js:0
+#, python-format
+msgid "Unassigned Tasks"
+msgstr "Nepriskirtos užduotys"
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__user_names
+msgid "User Names"
+msgstr "Naudotojo vardas"
+
+#. module: project_enterprise
+#: code:addons/project_enterprise/models/project.py:0
+#, python-format
+msgid ""
+"You cannot reschedule tasks in the past. Please, change their dates manually"
+" instead."
+msgstr ""
+"Negalima perplanuoti praėjusio laikotarpio užduočių. Prašom, pakeiskite jų "
+"datas rankiniu būdu."
+
+#. module: project_enterprise
+#: model:ir.model.fields,field_description:project_enterprise.field_project_task__partner_zip
+msgid "Zip"
+msgstr "Pašto kodas"
+
+#. module: project_enterprise
+#. openerp-web
+#: code:addons/project_enterprise/static/src/xml/project_enterprise.xml:0
+#, python-format
+msgid "_onClickSection"
+msgstr ""
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
+msgid "for this employee at the same time."
+msgstr "šiam darbuotojui tuo pačiu metu."
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
+msgid "other task"
+msgstr "kita užduotis"
+
+#. module: project_enterprise
+#: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
+msgid ""
+"other task<span attrs=\"{'invisible': [('planning_overlap', '=', "
+"1)]}\">s</span>"
+msgstr ""
+"kita užduotis<span attrs=\"{'invisible': [('planning_overlap', '=', 1)]}\"> "
+"</span>"

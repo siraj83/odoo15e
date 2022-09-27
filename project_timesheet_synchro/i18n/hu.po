@@ -1,0 +1,800 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_timesheet_synchro
+# 
+# Translators:
+# Tamás Dombos, 2021
+# Martin Trigaux, 2021
+# krnkris, 2021
+# Csaba Tóth <i3rendszerhaz@gmail.com>, 2021
+# Tamás Németh <ntomasz81@gmail.com>, 2021
+# gezza <geza.nagy@oregional.hu>, 2021
+# Kovács Tibor <kovika@gmail.com>, 2021
+# Ákos Nagy <akos.nagy@oregional.hu>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~14.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-12 07:57+0000\n"
+"PO-Revision-Date: 2021-09-14 12:42+0000\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2021\n"
+"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "&emsp;Start"
+msgstr "&emsp;Indít"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "&emsp;Stop"
+msgstr "&emsp;Leállít"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "(Last sync was unsuccessful)"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Action"
+msgstr "Művelet"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Activity created"
+msgstr "Tevékenység létrehozva"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Add"
+msgstr "Hozzáadás"
+
+#. module: project_timesheet_synchro
+#: model:ir.model,name:project_timesheet_synchro.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Analitikus sor"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Any device, anywhere. Even offline."
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Apple App Store"
+msgstr "Apple Alkalmazás áruház"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Are you sure that you want to delete this activity?"
+msgstr "Biztosan törölni szeretné ezt az aktivitása?"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Are you sure that you want to reset the app?"
+msgstr "Biztos abban, hogy visszaállítja ezt az alkalmazása?"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Available for iPhone, Android and Chrome."
+msgstr "iPhone, Android és Chrome alatt elérhető."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Blazing Fast"
+msgstr "Villám gyors"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"Connect Timesheets to Odoo to synchronize your activities across all "
+"devices."
+msgstr ""
+"Kapcsolja össze a munkaidő-kiosztás az Odoo rendszerrel az összes készülékén"
+" lévő tevékenységeinek szinkronizálásához."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/js/project_timesheet.js:0
+#, python-format
+msgid "Create Task : "
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Current activity"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Database"
+msgstr "Adatbázis"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Default project"
+msgstr "Alapértelmezett projekt"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Delete"
+msgstr "Törlés"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Discard"
+msgstr "Elvetés"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Discard data"
+msgstr "Adat elvetése"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"Either you or the Odoo server is offline at the moment. Make sure you do "
+"have a connection or try again later."
+msgstr ""
+"Vagy Ön vagy az Odoo szerver kapcsolat nélküli jelenleg. Győződjön meg róla,"
+" hogy van kapcsolata vagy próbálja meg később."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Get Things Done"
+msgstr "Végezzük el a feladatokat"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Google Chrome Store"
+msgstr "Google Chrome áruház"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Google Play Store"
+msgstr "Google Play áruház"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Keep data"
+msgstr "Adat megtartás"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Last sync :"
+msgstr "Utolsó szinkron:"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Locked"
+msgstr "Zárolt"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Logged in as"
+msgstr "Bejelentkezve mint"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Login"
+msgstr "Bejelentkezés"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Login to an on premise Odoo instance"
+msgstr "Lépjen be egy Odoo bevezető eseményre"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Login with Odoo"
+msgstr "Lépjen be mint Odoo"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Logout"
+msgstr "Kilépés"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Minimal duration"
+msgstr "Minimum időtartam"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "More info"
+msgstr "Tivábbi információ"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Motivation Text"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Multiple to round up all durations"
+msgstr "Többszörözze az összes időtartam felerekítéséhez"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Never lose track of what you need to do."
+msgstr "Ne veszítse el a fonalat a teendőiről."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Next"
+msgstr "Következő"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Next week"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Next week unavailable"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "No task"
+msgstr "Nincsenek feladatok"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"Note that this will create new projects and tasks on your Odoo instance"
+msgstr ""
+"Jegyezze meg, hogy ez új projekteket és feladatokat hoz létre az Odoo "
+"eseményére"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Offline support"
+msgstr "Kapcsolat nélküli támogatás"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "On server"
+msgstr "Szerveren"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"Once you have created or synchronized projects and tasks, they will appear "
+"here. This will allow you to plan your day in advance."
+msgstr ""
+"Ha egyszer létrehozta vagy szinkronizálta a projekteket és feladatokat, "
+"azokat itt láthatja. Ez lehetővé teszi a napjának az előtervezését."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Password"
+msgstr "Jelszó"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Plan your day. Focus on important tasks."
+msgstr "Tervezd meg a napodat. Fókuszálj a fontos feladatokra."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Please enter a database name:"
+msgstr "Kérem megadni egy adatbázis nevet:"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Please enter a valid duration"
+msgstr "Kérem adjon meg egy érvényes időtartamot."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Please select a project first"
+msgstr "Kérem válasszon először egy projektet"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Please select a project."
+msgstr "Kérem válasszon egy projektet."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Previous week"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Previous week unavailable"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Project"
+msgstr "Projekt"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "RESET"
+msgstr "VISSZAÁLLÍT"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Run"
+msgstr "Futtatás"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Save"
+msgstr "Mentés"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Select your Odoo instance from the list below :"
+msgstr "Válassza ki az Odoo eseményét az alábbi listából :"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Settings"
+msgstr "Beállítások"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Show password"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Sign Up"
+msgstr "Regisztrálás"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Statistics"
+msgstr "Statisztika"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Subtract"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Sync Now"
+msgstr "Szinkronizálás most"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Sync in progress"
+msgstr "Szinkronizáció folyamatban"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Synchronize"
+msgstr "Szinkronizál"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Syncing data, this shouldn't take long"
+msgstr "Szinkron adat, nem tart sokáig"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Task"
+msgstr "Feladat"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"The server you connected to does not support timesheet synchronization. You "
+"should contact your administrator in order to install the module "
+"''Synchronization with the external timesheet application'' (available in "
+"Odoo Enterprise Edition)."
+msgstr ""
+"A szerver, amihez csatlakozott, nem támogatja a munkaidő-kiosztás "
+"szinkronizálását. Kapcsolatba kell lépnie a rendszergazdával a ''Külső "
+"munkaidő-kiosztás szinkronizáló alkalmazás'' telepítésével (elérhető az Odoo"
+" Nagyvállalati kiadásban)."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "This Week"
+msgstr "Ezen a héten"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Time spent (hh:mm)"
+msgstr "Eltöltött idő (óó:pp)"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Time spent (hhmm)"
+msgstr "Eltöltött idő (óópp)"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Time unit"
+msgstr "Idő egysége"
+
+#. module: project_timesheet_synchro
+#: model:ir.actions.client,name:project_timesheet_synchro.project_timesheet_synchro_app_action
+#: model:ir.ui.menu,name:project_timesheet_synchro.menu_timesheet_app
+msgid "Timesheet App"
+msgstr "Munkaidő-kiosztás alkalmazás"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Today"
+msgstr "Ma"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Today's Plan"
+msgstr "Mai napi terv"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Toggle action"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Total :"
+msgstr "Összesen :"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Try the App"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"Use Odoo to organize projects and tasks, forecast resources and invoice time"
+" spent on tasks"
+msgstr ""
+"Használja az Odoo rendszert a projektek és feladatok szervezéséhez, források"
+" előrejelzéséhez és az azokon eltöltött idők számlázásához"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Use an Odoo.com account"
+msgstr "Használjon egy Odoo.com fiókot"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Week"
+msgstr "Hét"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Work Summary"
+msgstr "Munka összegzése"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Work anywhere, anytime."
+msgstr "Dolgozzon bárhol, bármikor."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Work in disconnected mode and sync in the background."
+msgstr "Dolgozzon kapcsolat nélküli módban és szinkronizáljon a háttérben."
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"Would you like the activities, projects and tasks that you created as a "
+"guest user to be synchronized as well?"
+msgstr ""
+"Szeretné a Vendég munkamenetben létrehozott  aktivitásait, projektjeit és "
+"feladatait is szinkronizálni?"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Would you like to delete this activity?"
+msgstr "Biztosan törölni szeretné ezt az aktivitást?"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "You are logged in !"
+msgstr "Belépett!"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid ""
+"You should have received an email with a link to activate your account. Once"
+" it is activated, you'll be able to"
+msgstr ""
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Your Odoo Server Address"
+msgstr "Odoo rendszer szervercíme"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "Your database and account have been created !"
+msgstr "Az adatbázisa és fiókja létrehozva !"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/timesheet_app_backend_template.xml:0
+#, python-format
+msgid "Your personal timesheets"
+msgstr "Saját személyes időbeosztásai"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "ex: admin@example.com"
+msgstr "pl.: admin@example.com"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "http://"
+msgstr "http://"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "https://"
+msgstr "https://"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "minutes"
+msgstr "perc"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/js/project_timesheet.js:0
+#, python-format
+msgid "remaining)"
+msgstr "visszamaradt)"
+
+#. module: project_timesheet_synchro
+#. openerp-web
+#: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
+#, python-format
+msgid "sign in"
+msgstr "belépés"
